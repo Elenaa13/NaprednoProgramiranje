@@ -131,22 +131,21 @@ class Bank {
     }
 
     public boolean makeTransaction(Transaction t) {
-        Account fromAccount = findAccountById(t.getFromId());
-        Account toAccount = findAccountById(t.getToId());
+        Account a1 = findAccountById(t.getFromId());
+        Account a2 = findAccountById(t.getToId());
 
-        if (fromAccount == null || toAccount == null || fromAccount.getBalance() < t.getAmount()) {
+        if (a1 == null || a2 == null || a1.getBalance() < t.getAmount()) {
             return false;
         }
 
         double provision = t.calculateProvision();
-        double totalDeduct = t.getAmount() + provision;
 
-        if (fromAccount.getBalance() < totalDeduct) {
+        if (a1.getBalance() < t.getAmount() + provision) {
             return false;
         }
 
-        fromAccount.setBalance(fromAccount.getBalance() - totalDeduct);
-        toAccount.setBalance(toAccount.getBalance() + t.getAmount());
+        a1.setBalance(a1.getBalance() - t.getAmount() + provision);
+        a2.setBalance(a2.getBalance() + t.getAmount());
         totalTransfers += t.getAmount();
         totalProvision += provision;
 
