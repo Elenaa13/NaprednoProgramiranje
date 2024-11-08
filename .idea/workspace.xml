@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="697c8c01-cea2-41d1-a676-c95a893d94c4" name="Changes" comment="zadacka1">
+      <change afterPath="$PROJECT_DIR$/src/Lab2/ContactsTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab2/DoubleMatrixTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2/BankTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2/BankTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2/CirclesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2/CirclesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BankTester.executor": "Run",
+    "Application.CirclesTest.executor": "Run",
+    "Application.ContactsTester.executor": "Run",
+    "Application.DoubleMatrixTester.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -60,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730987752121</updated>
       <workItem from="1730987753565" duration="1831000" />
-      <workItem from="1731014468740" duration="8139000" />
+      <workItem from="1731014468740" duration="13738000" />
     </task>
     <task id="LOCAL-00001" summary="zadacka1">
       <option name="closed" value="true" />
@@ -70,7 +73,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731028947312</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="zadacka1">
+      <option name="closed" value="true" />
+      <created>1731057376297</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731057376297</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
